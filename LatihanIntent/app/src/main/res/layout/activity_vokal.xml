@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VokalActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/vokal1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mic"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seni Vokal"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:layout_below="@+id/vokal1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vokal menurut Kamus Bahasa Indonesia adalah bunyi bahasa yang dihasilkan oleh getaran pita suara dan tanpa mempersempit saluran bicara di atas faring. Menurut penulis, istilah vokal adalah suara buatan manusia (getaran pita suara) dengan bantuan proses pernapasan dan ditujukan untuk kecantikan (estetika)."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/header" />
+</RelativeLayout>
